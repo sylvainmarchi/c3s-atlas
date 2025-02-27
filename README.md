@@ -1,4 +1,4 @@
-# Repository supporting the implementation of FAIR principles in the C3S Atlas: See the Atlas at: https://atlas.climate.copernicus.eu/atlas
+# Repository supporting the implementation of FAIR principles in the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas)
 
 ## Contents
 
@@ -12,9 +12,9 @@ This repository provides the scripts and notebooks, as well as the required auxi
 
 | Directory | Contents |
 | :-------- | :------- |
-|  [auxiliar](https://github.com/ecmwf-projects/c3s-atlas/-/tree/main/auxiliar) | Auxiliary materials containing GeoJSONs, GWLs, masks, etc.
-|  [c3s_atlas](https://github.com/ecmwf-projects/c3s-atlas/-/tree/main/c3s_atlas) | Python functions and wrappers to reproduce the workflow for data production of the C3S Atlas.
-|  [user-tools](https://github.com/ecmwf-projects/c3s-atlas/-/tree/main/user-tools) | Jupyter notebooks, combining the information from several of the previous directories to perform specific analyses.
+|  [auxiliar](https://github.com/ecmwf-projects/c3s-atlas/tree/main/auxiliar) | Auxiliary materials containing GeoJSONs, GWLs, masks, etc.
+|  [c3s_atlas](https://github.com/ecmwf-projects/c3s-atlas/tree/main/c3s_atlas) | Python functions and wrappers to reproduce the workflow for data production of the C3S Atlas.
+|  [user-tools](https://github.com/ecmwf-projects/c3s-atlas/tree/main/user-tools) | Jupyter notebooks, combining the information from several of the previous directories to perform specific analyses.
 
 **Table 1**. Table of contents.
 
