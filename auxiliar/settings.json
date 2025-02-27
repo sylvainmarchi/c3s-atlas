@@ -1,0 +1,335 @@
+{
+	"variable": {
+		"t": {
+			"shortName": "Mean temperature",
+			"name": "Mean temperature"
+		},
+		"tn": {
+			"shortName": "Minimum temperature",
+			"name": "Mean of daily minimum temperature"
+		},
+		"tx": {
+			"shortName": "Maximum temperature",
+			"name": "Mean of daily maximum temperature"
+		},
+		"txx": {
+			"shortName": "Maximum of maximum temperature",
+			"name": "Maximum of daily maximum temperature"
+		},
+		"tnn": {
+			"shortName": "Minimum of minimum temperature",
+			"name": "Minimum of daily minimum temperature"
+		},
+		"tx35": {
+			"shortName": "Days with maximum temperature above 35 ºC",
+			"name": "Days with maximum temperature above 35 ºC"
+		},
+		"tx35ba": {
+			"shortName": "Days with bias adjusted maximum temperature above 35 ºC",
+			"name": "Days with bias adjusted maximum temperature above 35 ºC"
+		},
+		"tx35bals": {
+			"shortName": "Days with bias adjusted maximum temperature above 35 ºC",
+			"name": "Days with bias adjusted maximum temperature above 35 ºC"
+		},
+		"tx40": {
+			"shortName": "Days with maximum temperature above 40 °C",
+			"name": "Days with maximum temperature above 40 °C"
+		},
+		"tx40ba": {
+			"shortName": "Days with bias adjusted maximum temperature above 40 °C",
+			"name": "Days with bias adjusted maximum temperature above 40 °C"
+		},
+		"tx40bals": {
+			"shortName": "Days with bias adjusted maximum temperature above 40 °C",
+			"name": "Days with bias adjusted maximum temperature above 40 °C"
+		},
+		"cd": {
+			"shortName": "Cooling degree-days",
+			"name": "Cooling degree-days"
+		},
+		"fd": {
+			"shortName": "Frost days",
+			"name": "Frost days"
+		},
+		"hd": {
+			"shortName": "Heating degree-days",
+			"name": "Heating degree-days"
+		},
+		"prsn": {
+			"shortName": "Snowfall",
+			"name": "Mean of daily accumulated snowfall"
+		},
+		"siconc": {
+			"shortName": "Sea-ice area",
+			"name": "Sea-ice area"
+		},
+		"sst": {
+			"shortName": "Sea surface temperature",
+			"name": "Mean sea surface temperature"
+		},
+		"pr": {
+			"shortName": "Precipitation",
+			"name": "Mean of daily accumulated precipitation"
+		},
+		"rx1day": {
+			"shortName": "Maximum of 1-day precipitation",
+			"name": "Maximum of 1-day accumulated precipitation"
+		},
+		"rx5day": {
+			"shortName": "Maximum of 5-day precipitation",
+			"name": "Maximum of 5-day accumulated precipitation"
+		},
+		"clt": {
+			"shortName": "Cloud cover",
+			"name": "Cloud cover"
+		},
+		"evspsbl": {
+			"shortName": "Evaporation",
+			"name": "Mean of daily evaporation"
+		},
+		"mrro": {
+			"shortName": "Runoff",
+			"name": "Mean of daily runoff"
+		},
+		"mrsos": {
+			"shortName": "Soil moisture",
+			"name": "Soil shallow moisture content"
+		},
+		"rlds": {
+			"shortName": "Surface downwelling longwave radiation",
+			"name": "Surface downwelling longwave radiation"
+		},
+		"rsds": {
+			"shortName": "Surface downwelling shortwave radiation",
+			"name": "Surface downwelling shortwave radiation"
+		},
+		"sfcwind": {
+			"shortName": "Wind speed",
+			"name": "Mean wind speed"
+		},
+		"spei6": {
+			"shortName": "Standardised Precipitation Evapotranspiration Index (SPEI-6)",
+			"name": "Standardised Precipitation Evapotranspiration Index (SPEI-6)"
+		},
+		"spi6": {
+			"shortName": "Standardised Precipitation Index (SPI-6)",
+			"name": "Standardised Precipitation Index (SPI-6)"
+		},
+		"psl": {
+			"shortName": "Sea level pressure",
+			"name": "Average air pressure at mean sea level"
+		},
+		"cdd": {
+			"shortName": "Consecutive dry days",
+			"name": "Consecutive dry days"
+		},
+		"huss": {
+			"shortName": "Specific humidity",
+			"name": "Specific humidity"
+		}
+	},
+	"variableGroup": {
+		"all": {
+			"name": "All"
+		},
+		"heatcold": {
+			"name": "Heat and cold"
+		},
+		"wetdry": {
+			"name": "Wet and dry"
+		},
+		"wind": {
+			"name": "Wind and radiation"
+		},
+		"snowice": {
+			"name": "Snow and ice"
+		},
+		"coastal": {
+			"name": "Ocean"
+		},
+		"circulation": {
+			"name": "Circulation"
+		}
+	},
+	"projectGroup": {
+		"all": {
+			"name": "All"
+		},
+		"climateProjections": {
+			"name": "Climate projections"
+		},
+		"reanalysis": {
+			"name": "Reanalysis"
+		},
+		"observations": {
+			"name": "Observations"
+		}
+	},
+	"units": {
+		"degC·day": "&deg;C·day",
+		"%": "%",
+		"number of days": "days",
+		"no units": "no units",
+		"mm": "mm/day",
+		"W m-2": "W·m<sup>-2</sup>",
+		"deg C": "&deg;C",
+		"kg m-2": "kg·m<sup>-2</sup>",
+		"fraction of unity": "fraction of unity",
+		"m/s": "m/s",
+		"Pa": "Pa",
+
+		"degC·day per decade": "&deg;C·day per decade",
+		"number of days per decade": "days per decade",
+		"% per decade": "% per decade",
+		"mm per decade": "mm/day per decade",
+		"kg m-2 per decade": "kg·m<sup>-2</sup> per decade",
+		"Pa per decade": "Pa per decade",
+		"W m-2 per decade": "W·m<sup>-2</sup> per decade",
+		"m/s per decade": "m/s per decade",
+		"fraction of unity per decade": "fraction of unity per decade",
+		"deg C per decade": "&deg;C per decade"
+	},
+	"analysis": {
+		"historical": {
+			"name": "Historical"
+		},
+		"future": {
+			"name": "Future"
+		}
+	},
+	"project": {
+		"CMIP6": {
+			"name": "Coupled Model Intercomparison Project Phase 6",
+			"shortName": "CMIP6"
+		},
+		"CMIP5": {
+			"name": "Coupled Model Intercomparison Project Phase 5",
+			"shortName": "CMIP5"
+		},
+		"ERA5": {
+			"name": "ECMWF global atmospheric reanalysis (fifth generation)",
+			"shortName": "ERA5"
+		},
+		"ERA5-Land": {
+			"name": "Land component of the ECMWF ERA5 reanalysis",
+			"shortName": "ERA5-Land"
+		},
+		"E-OBS": {
+			"name": "Gridded land-only observational dataset over Europe",
+			"shortName": "E-OBS"
+		},
+		"CORDEX-CORE": {
+			"name": "CORDEX Coordinated Output for Regional Evaluations",
+			"shortName": "CORDEX-CORE"
+		},
+		"CORDEX-EUR-11": {
+			"name": "Coordinated Regional Climate Downscaling Experiment (European branch)",
+			"shortName": "CORDEX-EUR-11"
+		},
+		"ORAS5": {
+			"name": "ECMWF global ocean reanalysis (system 5)",
+			"shortName": "ORAS5"
+		}
+	},
+	"baseline": {
+		"1850-1900": {
+			"name": "1850-1900"
+		},
+		"1961-1990": {
+			"name": "1961-1990"
+		},
+		"1981-2010": {
+			"name": "1981-2010"
+		},
+		"1986-2005": {
+			"name": "1986-2005"
+		},
+		"1991-2020": {
+			"name": "1991-2020"
+		},
+		"1995-2014": {
+			"name": "1995-2014"
+		}
+	},
+	"quantity": {
+		"VALUE": {
+			"name": "Climatology"
+		},
+		"ANOMALY": {
+			"name": "Change"
+		},
+		"TREND": {
+			"name": "Trend"
+		},
+		"RELATIVE_ANOMALY": {
+			"name": "Relative change"
+		}
+	},
+	"season": {
+		"Annual": {
+			"name": "Annual"
+		},
+		"DecFeb": { "name": "Winter (DJF)" },
+		"MarMay": { "name": "Spring (MAM)" },
+		"JunAug": { "name": "Summer (JJA)" },
+		"SepNov": { "name": "Autumn (SON)" },
+		"custom": { "name": "Custom" },
+		"Jan": { "name": "January" },
+		"Feb": { "name": "February" },
+		"Mar": { "name": "March" },
+		"Apr": { "name": "April" },
+		"May": { "name": "May" },
+		"Jun": { "name": "June" },
+		"Jul": { "name": "July" },
+		"Aug": { "name": "August" },
+		"Sep": { "name": "September" },
+		"Oct": { "name": "October" },
+		"Nov": { "name": "November" },
+		"Dec": { "name": "December" }
+	},
+	"scenario": {
+		"historical": { "name": "Historical" },
+		"ssp126": { "name": "SSP1-2.6" },
+		"ssp245": { "name": "SSP2-4.5" },
+		"ssp370": { "name": "SSP3-7.0" },
+		"ssp585": { "name": "SSP5-8.5" },
+		"rcp26": { "name": "RCP2.6" },
+		"rcp45": { "name": "RCP4.5" },
+		"rcp85": { "name": "RCP8.5" }
+	},
+	"period": {
+		"1850-1900": { "name": "1850-1900", "shortName": "1850-1900" },
+		"1950-2020": { "name": "1950-2020", "shortName": "1950-2020" },
+		"1961-1990": { "name": "1961-1990", "shortName": "1961-1990" },
+		"1981-2010": { "name": "1981-2010", "shortName": "1981-2010" },
+		"1986-2005": { "name": "1986-2005", "shortName": "1986-2005" },
+		"1991-2020": { "name": "1991-2020", "shortName": "1991-2020" },
+		"1995-2014": { "name": "1995-2014", "shortName": "1995-2014" },
+		"2021-2040": { "name": "Near Term (2021-2040)", "shortName": "Near term" },
+		"2041-2060": {
+			"name": "Medium Term (2041-2060)",
+			"shortName": "Medium term"
+		},
+		"2081-2100": { "name": "Long Term (2081-2100)", "shortName": "Long term" },
+		"GWL1.5": { "name": "Warming 1.5°C", "shortName": "1.5°C" },
+		"GWL2": { "name": "Warming 2°C", "shortName": "2°C" },
+		"GWL3": { "name": "Warming 3°C", "shortName": "3°C" },
+		"GWL4": { "name": "Warming 4°C", "shortName": "4°C" }
+	},
+	"domain": {
+		"global": {
+			"name": "Global"
+		}
+	},
+	"hatching": {
+		"_anom_hatching_simple": { "name": "Simple method" },
+		"_anom_hatching_advanced": { "name": "Advanced method" }
+	},
+	"gwl": {
+		"GWL1.5": { "name": "Warming 1.5°C", "shortName": "1.5°C" },
+		"GWL2": { "name": "Warming 2°C", "shortName": "2°C" },
+		"GWL3": { "name": "Warming 3°C", "shortName": "3°C" },
+		"GWL4": { "name": "Warming 4°C", "shortName": "4°C" }
+	}
+}
