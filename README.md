@@ -1,4 +1,4 @@
-![logo](./figures/LogoLine_horizon_C3S.png)
+![logo](./book/figures/LogoLine_horizon_C3S.png)
 
 # Repository supporting the implementation of FAIR principles in the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas)
 
