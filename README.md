@@ -51,6 +51,10 @@ Table 2 displays the list of Python libraries used for the implementation of the
 
 **Table 2**. List of Python libraries used in the C3S Atlas software, as main packages for the different components shown in Figure 1.
 
+A much straigtforward way to explore and interact with this repository is through binder. Binder provides an executable environment, making the code immediately reproducible. The required software is pre-installed in a cloud environment where the user can create and execute notebooks (directly) and scripts (via the available Terminal). Moreover, the environment is accessible without any further authentication by the user.
+
+To start exploring the binder interface, just click the Launch in MyBinder badge above. You will arrive at a JupyterLab interface with access to the contents of this repository.
+
 ## License
 
 ```
