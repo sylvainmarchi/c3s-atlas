@@ -1,23 +1,29 @@
+![logo](LogoLine_horizon_C3S.png)
+
 # Repository supporting the implementation of FAIR principles in the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas)
 
 ## Contents
 
-This repository provides the scripts and notebooks, as well as the required auxiliary products and datasets, supporting the reproducibility and reusability of some of the C3S Atlas products, as described in the following schema and table of contents.
+The c3s-atlas GitHub repository of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) have been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu), implementing FAIR principles (Findability, Accessibility, Interoperability, and Reusability ([Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
 
-<img src="user-tools/workflow.png" alt="Overview schematic diagram of the C3S Atlas workflow designed for data production" width="800"/>
+## The C3S Atlas
 
-**Figure 1**. Overview schematic diagram of the C3S Atlas workflow designed for data production.
+The [C3S Atlas](http://atlas.climate.copernicus.eu) is an application of the  Copernicus Climate Change Service (C3S) which enables an interactive exploration of the Earth's climate, from recent changes and trends to possible climate futures under different emission scenarios. It uses key datasets that are available in the C3S Climate Data Store (CDS), including observation-based datasets (E-OBS), reanalyses (ECMWF’s ERA5, ERA5-Land and ORAS5), and comprehensive global (CMIP5/6) and regional (CORDEX) climate projections. The C3S Atlas is a new resource for policy makers wishing to formulate effective climate policy and for other users who need to visualise and analyse climate change information, particularly at the regional scale. This C3S tool is an evolution of the Intergovernmental Panel on Climate Change (IPCC) Interactive Atlas (IPCC-IA), which was frozen in 2021 with the publication of the Sixth Assessment Report’s (AR6) WGI (Working Group I) section (see https://www.ipcc.ch/report/ar6/wg1).
+
+A brief description of the C3S Atlas is available in the ECMWF Newsletter 181 ([Gutiérrez et al. 2024](https://doi.org/10.21957/ah52ufc369), [online document](https://www.ecmwf.int/en/newsletter/181/earth-system-science/copernicus-interactive-climate-atlas-tool-explore-regional)).
 
 
+## The C3S Atlas GitHub repository
+
+Table 1 shows the structure of the [c3s-atlas GitHub repository](https://github.com/ecmwf-projects/c3s-atlas).
 
 | Directory | Contents |
 | :-------- | :------- |
-|  [auxiliar](https://github.com/ecmwf-projects/c3s-atlas/tree/main/auxiliar) | Auxiliary materials containing GeoJSONs, GWLs, masks, etc.
+|  [auxiliar](https://github.com/ecmwf-projects/c3s-atlas/tree/main/auxiliar) | Auxiliary information and datasets, including GeoJSONs for pre-defined regions, spatial masks, etc.
 |  [c3s_atlas](https://github.com/ecmwf-projects/c3s-atlas/tree/main/c3s_atlas) | Python functions and wrappers to reproduce the workflow for data production of the C3S Atlas.
-|  [user-tools](https://github.com/ecmwf-projects/c3s-atlas/tree/main/user-tools) | Jupyter notebooks, combining the information from several of the previous directories to perform specific analyses.
+|  [book](https://github.com/ecmwf-projects/c3s-atlas/tree/main/book) | Jupyter notebooks building on the sofware and auxiliary information to illustrate the calculation of indices of the dataset and visual products of the application.
 
-**Table 1**. Table of contents.
-
+**Table 1**. Table of contents of the  [“c3s-atlas" GitHub repository](https://github.com/ecmwf-projects/c3s-atlas).
 
 ## Requirements
 
@@ -44,4 +50,22 @@ Table 2 displays the list of Python libraries used for the implementation of the
 | [cdsapi](https://cds.climate.copernicus.eu/api-how-to) | The Climate Data Store (CDS) Application Program Interface (API) is a service providing programmatic access to CDS data. | workflow (encapsulated in a wrapper) and user-tools |
 
 **Table 2**. List of Python libraries used in the C3S Atlas software, as main packages for the different components shown in Figure 1.
+
+## License
+
+```
+Copyright 2023, European Union.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
 
