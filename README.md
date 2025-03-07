@@ -4,7 +4,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/tree/main/HEAD?urlpath=%2Fdoc%2Ftree%2Fhttps%3A%2F%2Fgithub.com%2Fecmwf-projects%2Fc3s-atlas%2Fblob%2Fmain%2Fbook%2Ftx35.ipynb)
 
-The c3s-atlas GitHub repository of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) have been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu), implementing FAIR principles (Findability, Accessibility, Interoperability, and Reusability ([Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
+The c3s-atlas GitHub repository of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) have been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas Dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu), implementing FAIR principles (Findability, Accessibility, Interoperability, and Reusability ([Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
 
 ## The C3S Atlas
 
