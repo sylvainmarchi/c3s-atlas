@@ -1,5 +1,6 @@
 ![logo](./figures/LogoLine_horizon_C3S.png)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/tree/main/HEAD?urlpath=%2Fdoc%2Ftree%2Fhttps%3A%2F%2Fgithub.com%2Fecmwf-projects%2Fc3s-atlas%2Fblob%2Fmain%2Fbook%2Ftx35.ipynb)
 
 # User-tools for the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas)
 
@@ -43,6 +44,10 @@ cd c3s-atlas
 conda env update --file environment.yml --prune
 pip install -e .
 ```
+
+A much straigtforward way to explore and interact with this repository is through binder. Binder provides an executable environment, making the code immediately reproducible. The required software is pre-installed in a cloud environment where the user can create and execute notebooks (directly) and scripts (via the available Terminal). Moreover, the environment is accessible without any further authentication by the user.
+
+To start exploring the binder interface, just click the Launch in MyBinder badge above. You will arrive at a JupyterLab interface with access to the contents of this repository.
 
 ## The C3S Atlas
 
