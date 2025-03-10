@@ -19,8 +19,7 @@ Figure 1 provides a schematic representation of the data production workflow, em
 
 **Figure 1.** Schematic diagram of the C3S Atlas data production workflow.
 
-Table 1 lists the notebooks included in this chapter, describing the appication of the workflow in three illustrate examples corresponding to the calculation of an index, 
-
+Table 1 lists the notebooks included in this chapter, describing the appication of the workflow in cases with different complexity (e.g. with and withou bias adjustment). 
 
 | Directory | Contents |
 | :-------- | :------- |
