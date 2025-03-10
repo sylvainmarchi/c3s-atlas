@@ -37,7 +37,7 @@ conda env update --file environment.yml --prune
 pip install -e .
 ```
 
-Table 2 displays the list of Python libraries used for the implementation of the workflow and the user-tools repository.
+The following Python libraries have been used for the implementation of the workflow and the user-tools repository.
 
 | Library  | Description | Used in (workflow/user-tools) |
 |----------|-------------|-------------------------------|
@@ -48,9 +48,7 @@ Table 2 displays the list of Python libraries used for the implementation of the
 | [dask](https://examples.dask.org/xarray.html) | Python library for parallel computing | Used for user-tools. The workflow uses an in-house chunking strategy |
 | [cdsapi](https://cds.climate.copernicus.eu/api-how-to) | The Climate Data Store (CDS) Application Program Interface (API) is a service providing programmatic access to CDS data. | workflow (encapsulated in a wrapper) and user-tools |
 
-**Table 2**. List of Python libraries used in the C3S Atlas software, as main packages for the different components shown in Figure 1.
-
-A straightforward way to explore and interact with this repository is by using Binder. Binder offers an executable environment with free limited resources, allowing you to immediately reproduce the code without needing to install software locally. The required software comes pre-installed in a cloud-based environment, enabling you to directly create and execute notebooks and run scripts through the provided Terminal. Additionally, this environment is freely accessible without requiring any user authentication. To begin exploring via Binder, simply click on the "Launch in MyBinder" badge above. 
+A straightforward way to explore and interact with this repository online is by using Binder. Binder offers an executable environment with free but limited resources, allowing you to immediately reproduce the code without needing to install software locally. The required software comes pre-installed in a cloud-based environment, enabling you to directly create and execute notebooks and run scripts through the provided Terminal. Additionally, this environment is freely accessible without requiring any user authentication. To begin exploring via Binder, simply click on the "Launch in MyBinder" badge above. 
 
 ## License
 
