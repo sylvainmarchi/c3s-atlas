@@ -1,10 +1,10 @@
-![logo](./figures/LogoLine_horizon_C3S.png)
+![logo](./notebooks/figures/LogoLine_horizon_C3S.png)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/tree/main/HEAD?urlpath=%2Fdoc%2Ftree%2Fhttps%3A%2F%2Fgithub.com%2Fecmwf-projects%2Fc3s-atlas%2Fblob%2Fmain%2Fbook%2Ftx35.ipynb)
 
 # User-tools for the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas)
 
-The user tools of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) have been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu). These tools implement FAIR principles (Findability, Accessibility, Interoperability, and Reusability; [Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
+The user tools of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) have been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas Dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu). These tools implement FAIR principles (Findability, Accessibility, Interoperability, and Reusability; [Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
 
 
 ## The C3S Atlas (note)Book
@@ -12,8 +12,8 @@ The user tools of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas) hav
 This Jupyter Book integrates and documents various notebooks available in the [c3s-atlas GitHub repository](https://github.com/ecmwf-projects/c3s-atlas), explaining how to reproduce the different indices and products underpinning the C3S Atlas. These notebooks build upon the software and auxiliary information included in the repository.
 
 This book is divided into two main chapters: 
- - [C3S Atlas dataset](./_build/html/index_rep.html): This chapter focuses on the end-to-end processing followed to compute the different indices forming the ["gridded dataset underpinning the Copernicus Interactive Climate Atlas""](https://cds.climate.copernicus.eu/datasets/multi-origin-c3s-atlas?tab=overview). It describes some Jupyter Notebooks with illustrative examples of indices with differetn requirements included in the C3S Atlas. These notebooks build on the package of Python functions included in the repository to facilitate the different processing steps: harmonization, aggregation, interpolation, etc.
- - [C3S Atlas application](./_build/html/product_rep.html): This chapter focuses of the products visualized in the C3S Atlas (maps, time series, climatic stripes, etc.). It describes several Jupyter Notebooks to reproduce these products, as well as the auxiliary elements required, such as the calculation of Global Warming Levels (GWLs), the calculation of robustness/uncertainty layers, etc.
+ - [C3S Atlas Dataset](./_build/html/chapter01.html): This chapter focuses on the end-to-end processing followed to compute the different indices forming the ["gridded dataset underpinning the Copernicus Interactive Climate Atlas""](https://cds.climate.copernicus.eu/datasets/multi-origin-c3s-atlas?tab=overview). It describes some Jupyter Notebooks with illustrative examples of indices with differetn requirements included in the C3S Atlas. These notebooks build on the Python function package included in the repository to facilitate the different processing steps: harmonization, aggregation, interpolation, etc.
+ - [C3S Atlas Application](./_build/html/chapter02.html): This chapter focuses of the products visualized in the C3S Atlas (maps, time series, climatic stripes, etc.). It describes several Jupyter Notebooks to reproduce these products, as well as the auxiliary elements required, such as the calculation of Global Warming Levels (GWLs), the calculation of robustness/uncertainty layers, etc.
 
 The Jupyter Book and the “c3s-atlas" GitHub repository serve as an initial package of user tools enabling reproducibility and reusability for the C3S Atlas. 
 

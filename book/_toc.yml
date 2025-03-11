@@ -11,13 +11,13 @@ parts:
   - file: chapter01.md
     title: Reproducibility of the C3S Atlas dataset 
     sections:
-      - file: tx35
+      - file: notebooks/tx35
         title: Monthly count of days above 35 degC (tx35)
-      - file: cd
+      - file: notebooks/cd
         title: Cooling Degree Days (CD)
-      - file: tx35bals
+      - file: notebooks/tx35bals
         title: Monthly count of days above 35 degC with bias adjusting (tx35bals)
-      - file: rbaisimip
+      - file: notebooks/rbaisimip
         title: Monthly mean of daily accumulated precipitation of liquid water equivalent from all phasess (rbaisimip)
 
 - caption: ➡️ C3S Atlas products
@@ -26,18 +26,18 @@ parts:
   - file: chapter02.md
     title: Reproducibility of the C3S Atlas visual products
     sections:
-      - file: customized_regions
+      - file: notebooks/customized_regions
         title: Customized regions
-      - file: spatial_map
+      - file: notebooks/spatial_map
         title: Spatial map
-      - file: time_series
+      - file: notebooks/time_series
         title: Time series
-      - file: annual_cycle
+      - file: notebooks/annual_cycle
         title: Annual cycle
-      - file: climate_stripes
+      - file: notebooks/climate_stripes
         title: Climate stripes
-      - file: seasonal_stripes
+      - file: notebooks/seasonal_stripes
         title: Seasonal stripes
-      - file: GWLs
+      - file: notebooks/GWLs
         title: Global Warming Levels (GWLs)
 

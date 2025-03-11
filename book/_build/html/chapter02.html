@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>User-tools for the C3S Atlas &#8212; C3S Atlas jupyter-book</title>
+    <title>1. Reproducibility of the C3S Atlas Application visual products &#8212; C3S Atlas jupyter-book</title>
   
   
   
@@ -62,10 +62,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'chapter02';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. Reproducibility of the C3S Atlas Dataset" href="chapter01.html" />
+    <link rel="next" title="1.1. Customized regions" href="notebooks/customized_regions.html" />
+    <link rel="prev" title="1.6. Calculate rbaisimip for CMIP6" href="notebooks/rbaisimip.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -147,7 +148,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -167,8 +168,8 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     User-tools for the C3S Atlas
                 </a>
             </li>
@@ -184,8 +185,8 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">➡️ C3S Atlas products</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="chapter02.html">1. Reproducibility of the C3S Atlas visual products</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">1. Reproducibility of the C3S Atlas visual products</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="notebooks/customized_regions.html">1.1. Customized regions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notebooks/spatial_map.html">1.2. Spatial map</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notebooks/time_series.html">1.3. Time series</a></li>
@@ -268,7 +269,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/ecmwf-projects/c3s-atlas/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/ecmwf-projects/c3s-atlas/issues/new?title=Issue%20on%20page%20%2Fchapter02.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -298,7 +299,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/chapter02.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -369,9 +370,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -382,24 +381,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>User-tools for the C3S Atlas</h1>
+    <h1>Reproducibility of the C3S Atlas Application visual products</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas-note-book">The C3S Atlas (note)Book</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas-github-repository">The C3S Atlas GitHub repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-run-the-notebooks">How to run the notebooks</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas">The C3S Atlas</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -410,23 +396,10 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <p><img alt="logo" src="_images/LogoLine_horizon_C3S.png" /></p>
-<p><a class="reference external" href="https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/tree/main/HEAD?urlpath=%2Fdoc%2Ftree%2Fhttps%3A%2F%2Fgithub.com%2Fecmwf-projects%2Fc3s-atlas%2Fblob%2Fmain%2Fbook%2Ftx35.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
-<section class="tex2jax_ignore mathjax_ignore" id="user-tools-for-the-c3s-atlas">
-<h1>User-tools for the <a class="reference external" href="https://atlas.climate.copernicus.eu/atlas">C3S Atlas</a><a class="headerlink" href="#user-tools-for-the-c3s-atlas" title="Permalink to this heading">#</a></h1>
-<p>The user tools of the <a class="reference external" href="https://atlas.climate.copernicus.eu/atlas">C3S Atlas</a> have been developed to enhance transparency and facilitate the reusability of the software developed to produce the <a class="reference external" href="https://doi.org/10.24381/cds.h35hb680">C3S Atlas Dataset</a> and the visual products displayed in the <a class="reference external" href="https://atlas.climate.copernicus.eu">C3S Atlas Application</a>. These tools implement FAIR principles (Findability, Accessibility, Interoperability, and Reusability; <a class="reference external" href="https://doi.org/10.5194/essd-12-2959-2020">Iturbide et al. 2022</a>).</p>
-<section id="the-c3s-atlas-note-book">
-<h2>The C3S Atlas (note)Book<a class="headerlink" href="#the-c3s-atlas-note-book" title="Permalink to this heading">#</a></h2>
-<p>This Jupyter Book integrates and documents various notebooks available in the <a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas">c3s-atlas GitHub repository</a>, explaining how to reproduce the different indices and products underpinning the C3S Atlas. These notebooks build upon the software and auxiliary information included in the repository.</p>
-<p>This book is divided into two main chapters:</p>
-<ul class="simple">
-<li><p><span class="xref myst">C3S Atlas Dataset</span>: This chapter focuses on the end-to-end processing followed to compute the different indices forming the <a class="reference external" href="https://cds.climate.copernicus.eu/datasets/multi-origin-c3s-atlas?tab=overview">“gridded dataset underpinning the Copernicus Interactive Climate Atlas””</a>. It describes some Jupyter Notebooks with illustrative examples of indices with differetn requirements included in the C3S Atlas. These notebooks build on the Python function package included in the repository to facilitate the different processing steps: harmonization, aggregation, interpolation, etc.</p></li>
-<li><p><span class="xref myst">C3S Atlas Application</span>: This chapter focuses of the products visualized in the C3S Atlas (maps, time series, climatic stripes, etc.). It describes several Jupyter Notebooks to reproduce these products, as well as the auxiliary elements required, such as the calculation of Global Warming Levels (GWLs), the calculation of robustness/uncertainty layers, etc.</p></li>
-</ul>
-<p>The Jupyter Book and the “c3s-atlas” GitHub repository serve as an initial package of user tools enabling reproducibility and reusability for the C3S Atlas.</p>
-</section>
-<section id="the-c3s-atlas-github-repository">
-<h2>The C3S Atlas GitHub repository<a class="headerlink" href="#the-c3s-atlas-github-repository" title="Permalink to this heading">#</a></h2>
-<p>Table 1 shows the structure of the <a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas">c3s-atlas GitHub repository</a>.</p>
+<section class="tex2jax_ignore mathjax_ignore" id="reproducibility-of-the-c3s-atlas-application-visual-products">
+<h1><span class="section-number">1. </span>Reproducibility of the C3S Atlas Application visual products<a class="headerlink" href="#reproducibility-of-the-c3s-atlas-application-visual-products" title="Permalink to this heading">#</a></h1>
+<p>This second chapter contains several notebooks to reproduce and extend parts of the figures and products provided by the <a class="reference external" href="https://atlas.climate.copernicus.eu">C3S Atlas Application</a>, from global and regional maps to (regional) time series, climate stripes, for pre-defined or customized regions. Some auxiliary elements, such as the calculation of Global Waming Levels (GWLs) are also illsutrated.</p>
+<p>Table 1 lists the notebooks included in this chapter, which build upon the <a class="reference external" href="https://doi.org/10.24381/cds.h35hb680">C3S Atlas Dataset</a> described in the first chapter of this book.</p>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-left head"><p>Directory</p></th>
@@ -434,41 +407,30 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/tree/main/auxiliar">auxiliar</a></p></td>
-<td class="text-left"><p>Auxiliary information and datasets, including GeoJSONs for pre-defined regions, spatial masks, etc.</p></td>
+<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/spatial_map.ipynb">spatial_map.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Notebook for reproducing spatial maps of climatologies or changes for recent and future periods across emission scenarios or for different Global Warming Levels (GWL), including the calculation and display of robustness following the IPCC AR6 WGI methodology.</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/tree/main/c3s_atlas">c3s_atlas</a></p></td>
-<td class="text-left"><p>Python functions and wrappers to reproduce the workflow for data production of the C3S Atlas.</p></td>
+<tr class="row-odd"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/time_series.ipynb">time_series.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Notebook for reproducing regional time series for pre-defined regions.</p></td>
 </tr>
-<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/tree/main/book">book</a></p></td>
-<td class="text-left"><p>Jupyter notebooks building on the sofware and auxiliary information to illustrate the calculation of indices of the dataset and visual products of the application.</p></td>
+<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/climate_stripes.ipynb">climate_stripe.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Notebook for reproducing regional climate stripes for pre-defined regions.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/seasonal_stripes.ipynb">seasonal_stripe.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Notebook for reproducing regional seasonal stripes for pre-defined regions.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/annual_cycle.ipynb">annual_cycle.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Notebook for reproducing regional annual cycles for pre-defined regions.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/customized_regions.ipynb">customized_regions.ipynb</a></p></td>
+<td class="text-left"><p>Jupyter Auxiliary notebook with examples of how to produce regional results for customized regions defined in machine-readable formats (e.g. geojson).</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/blob/main/book/notebooks/GWLs.ipynb">GWLs.ipynb</a></p></td>
+<td class="text-left"><p>Auxiliary Jupyter Notebook illustrating the calculation of Global Warming Levels (GWLs), following the IPCC AR6 WGI methodology. This is used by the previous notebooks for calculating changes for different warming levels.</p></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Table 1</strong>. Table of contents of the  <a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas">“c3s-atlas” GitHub repository</a>.</p>
-<section id="how-to-run-the-notebooks">
-<h3>How to run the notebooks<a class="headerlink" href="#how-to-run-the-notebooks" title="Permalink to this heading">#</a></h3>
-<p><a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/tree/main/c3s_atlas">Scripts</a> and <a class="reference external" href="https://github.com/ecmwf-projects/c3s-atlas/tree/main/book">Jupyter-Notebooks</a> are provided in <a class="reference external" href="https://www.python.org/">Python</a> to ensure reproducibility and reusability of the results. Jupyter-Notebooks aim primarily for transparency and traceability, while the scripts contain functions and wrappers that are part of the workflow designed for the C3S Atlas.</p>
-<p>The simplest way to run the notebooks is by using a dedicated <a class="reference external" href="https://docs.conda.io">conda</a> environment, which can be installed with the following commands:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:ecmwf-projects/c3s-atlas.git
-conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>c3s-atlas
-conda<span class="w"> </span>activate<span class="w"> </span>c3s-atlas
-<span class="nb">cd</span><span class="w"> </span>c3s-atlas
-conda<span class="w"> </span>env<span class="w"> </span>update<span class="w"> </span>--file<span class="w"> </span>environment.yml<span class="w"> </span>--prune
-pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
-</pre></div>
-</div>
-<p>A much straigtforward way to explore and interact with this repository is through binder. Binder provides an executable environment, making the code immediately reproducible. The required software is pre-installed in a cloud environment where the user can create and execute notebooks (directly) and scripts (via the available Terminal). Moreover, the environment is accessible without any further authentication by the user.</p>
-<p>To start exploring the binder interface, just click the Launch in MyBinder badge above. You will arrive at a JupyterLab interface with access to the contents of this repository.</p>
-</section>
-</section>
-<section id="the-c3s-atlas">
-<h2>The C3S Atlas<a class="headerlink" href="#the-c3s-atlas" title="Permalink to this heading">#</a></h2>
-<p>The <a class="reference external" href="http://atlas.climate.copernicus.eu">C3S Atlas</a> is an application of the  Copernicus Climate Change Service (C3S) which enables an interactive exploration of the Earth’s climate, from recent changes and trends to possible climate futures under different emission scenarios. It uses key datasets that are available in the C3S Climate Data Store (CDS), including observation-based datasets (E-OBS), reanalyses (ECMWF’s ERA5, ERA5-Land and ORAS5), and comprehensive global (CMIP5/6) and regional (CORDEX) climate projections. The C3S Atlas is a new resource for policy makers wishing to formulate effective climate policy and for other users who need to visualise and analyse climate change information, particularly at the regional scale. This C3S tool is an evolution of the Intergovernmental Panel on Climate Change (IPCC) Interactive Atlas (IPCC-IA), which was frozen in 2021 with the publication of the Sixth Assessment Report’s (AR6) WGI (Working Group I) section (see <a class="reference external" href="https://www.ipcc.ch/report/ar6/wg1">https://www.ipcc.ch/report/ar6/wg1</a>).</p>
-<p>A brief description of the C3S Atlas is available in the ECMWF Newsletter 181 (<a class="reference external" href="https://doi.org/10.21957/ah52ufc369">Gutiérrez et al. 2024</a>, <a class="reference external" href="https://www.ecmwf.int/en/newsletter/181/earth-system-science/copernicus-interactive-climate-atlas-tool-explore-regional">online document</a>).</p>
-</section>
-<div class="toctree-wrapper compound">
-</div>
+<p><strong>Table 1.</strong> Notebooks included as example to reproduce the C3S Atlas Application visual products.</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -503,12 +465,21 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="notebooks/rbaisimip.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">1.6. </span>Calculate rbaisimip for CMIP6</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="chapter01.html"
+       href="notebooks/customized_regions.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>Reproducibility of the C3S Atlas Dataset</p>
+        <p class="prev-next-title"><span class="section-number">1.1. </span>Customized regions</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -518,25 +489,6 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas-note-book">The C3S Atlas (note)Book</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas-github-repository">The C3S Atlas GitHub repository</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-run-the-notebooks">How to run the notebooks</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-c3s-atlas">The C3S Atlas</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
