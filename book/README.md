@@ -2,12 +2,12 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/tree/main/HEAD?urlpath=%2Fdoc%2Ftree%2Fhttps%3A%2F%2Fgithub.com%2Fecmwf-projects%2Fc3s-atlas%2Fblob%2Fmain%2Fbook%2Ftx35.ipynb)
 
+# Jupyter (note)books
+
 
 This directory integrates the specific files for the C3S Atlas (note)Book and the Jupyter notebooks (inside the notebooks) to reproduce the [C3S Atlas Dataset](https://doi.org/10.24381/cds.h35hb680) and visual products of the [C3S Atlas Application](https://atlas.climate.copernicus.eu).
 
-## Jupyter notebooks
-
-Table 1 and Table 2 shows the Jupyter notebo
+## Notebooks
 
 Several Jupyter notebooks have been developed to explain how to reproduce the different indices and products underpinning the C3S Atlas. These notebooks build upon the software and auxiliary information included in the repository.
 
