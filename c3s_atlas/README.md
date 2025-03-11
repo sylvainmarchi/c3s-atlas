@@ -11,7 +11,7 @@ Table 1 provides descriptions of the main files in the repository, outlining the
 | `aggregation.py`      | Contains functions to aggregate data across different dimensions or time periods.
 | `analysis.py`         | Includes functions for data analysis, such as calculating statistical properties, trends, and performing exploratory data analysis |
 | `customized_regions.py`| Provides functions to define and handle custom regions for analysis, possibly including spatial subsetting or creating specific regional masks. |
-| `errors.py`           | Contains error-handling functions to manage and log errors throughout the processing workflow, e.g. wrong download requests. |
+| `errors.py`           | Contains error-handling functions to manage and log errors throughout the processing workflow, e.g. unable to infer the temporal frequency. |
 | `fixers.py`           | Provides utility functions to fix or clean up data from different sources |
 | `indexes.py`          | Includes in-house function for calculating various climate indices |
 | `interpolation.py`    | Contains functions for regridding data to different spatial resolutions based on the [xESMF](https://xesmf.readthedocs.io/en/stable/) Regridding library |
