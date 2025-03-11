@@ -8,7 +8,7 @@ parts:
 - caption: ➡️ C3S Atlas dataset
   numbered: 3
   chapters:
-  - file: index_rep.md
+  - file: chapter01.md
     title: Reproducibility of the C3S Atlas dataset 
     sections:
       - file: tx35
@@ -23,7 +23,7 @@ parts:
 - caption: ➡️ C3S Atlas products
   numbered: 3
   chapters:
-  - file: product_rep.md
+  - file: chapter02.md
     title: Reproducibility of the C3S Atlas visual products
     sections:
       - file: customized_regions
