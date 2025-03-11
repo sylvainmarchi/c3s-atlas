@@ -4,8 +4,6 @@
 
 This repository contains **source** functions and wrappers designed to reproduce the workflow for data production of the [C3S Atlas](https://atlas.climate.copernicus.eu/atlas). The functions in this repository facilitate various processing steps such as harmonization, aggregation, interpolation, and more.
 
-## File Descriptions
-
 Table 1 provides descriptions of the main files in the repository, outlining their functionality.
 
 | **File**             | **Description**                                                                 |
