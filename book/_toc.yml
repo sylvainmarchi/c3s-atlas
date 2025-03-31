@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 parts:
 
-- caption: ➡️ C3S Atlas dataset
+- caption: ➡️ C3S Atlas Dataset
   numbered: 3
   chapters:
   - file: chapter01.md
@@ -17,10 +17,10 @@ parts:
         title: Cooling Degree Days (CD)
       - file: notebooks/tx35bals
         title: Monthly count of days above 35 degC with bias adjusting (tx35bals)
-      - file: notebooks/rbaisimip
-        title: Monthly mean of daily accumulated precipitation of liquid water equivalent from all phasess (rbaisimip)
+      - file: notebooks/cddbaisimip
+        title: Consecutive Dry Days with bias adjusted precipitation
 
-- caption: ➡️ C3S Atlas products
+- caption: ➡️ C3S Atlas Application
   numbered: 3
   chapters:
   - file: chapter02.md
@@ -28,8 +28,8 @@ parts:
     sections:
       - file: notebooks/customized_regions
         title: Customized regions
-      - file: notebooks/spatial_map
-        title: Spatial map
+      - file: notebooks/geographic_map
+        title: Geographic map
       - file: notebooks/time_series
         title: Time series
       - file: notebooks/annual_cycle
