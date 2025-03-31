@@ -124,7 +124,7 @@ def get_attribute(attrs, name):
 
     # Get current directory
     c_path = os.getcwd()
-    c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-1])
+    c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
     
     # Open and read the JSON file
     with open(f"{c_path_c3s_atlas}/auxiliar/settings.json", 'r') as file:
@@ -174,8 +174,8 @@ def count_years(period):
     end_year = int(period.stop)
     return end_year - start_year + 1
 
-def plot_month(ax, ds, var, month, title, cmap):
-    ds[var].sel(time=(ds['time.month'] == month)).plot(ax=ax, cmap = cmap)
+def plot_month(ax, ds, var, month, title, cmap, vmin = None, vmax = None):
+    ds[var].sel(time=(ds['time.month'] == month)).plot(ax=ax, cmap = cmap, vmin = vmin, vmax = vmax)
     ax.set_title(title)
     ax.coastlines()
 

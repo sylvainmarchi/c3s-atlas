@@ -510,7 +510,7 @@ def seasonal_stripe_plot(ds, var, attrs,  mode, diff = None,
                             
     # Calculate the reference difference
     if mode == 'change':
-        ds_baseline = ds.loc[dict(year=baseline_period)].mean('year')
+        ds_baseline = ds.loc[dict(year=baseline_period)].mean('year', skipna=True)
         # Calculate absolute or relative difference
         if diff == 'abs':
             values = ds - ds_baseline
