@@ -1,0 +1,3 @@
+book/_build/
+.ipynb_checkpoints
+*.nc

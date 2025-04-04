@@ -35,4 +35,4 @@ html:
   use_issues_button: true
   use_repository_button: true
 
-  announcement: "⚠️This is under development!⚠️" # A banner announcement at the top of the site.
+#  announcement: "⚠️This is under development!⚠️" # A banner announcement at the top of the site.

@@ -1,4 +1,5 @@
 #!/bin/bash
 cd
+conda init
 conda activate notebook
 pip install -e .
