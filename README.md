@@ -2,8 +2,6 @@
 
 # C3S Atlas User Tools
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/c3s-atlas/main?urlpath=%2Fdoc%2Ftree%2Fbook%2Fnotebooks%2Ftx35.ipynb)
-
 The [C3S Atlas](https://atlas.climate.copernicus.eu) user-tools GitHub repository has been developed to enhance transparency and facilitate the reusability of the software developed to produce the [C3S Atlas Dataset](https://doi.org/10.24381/cds.h35hb680) and the visual products displayed in the [C3S Atlas Application](https://atlas.climate.copernicus.eu), implementing FAIR principles (Findability, Accessibility, Interoperability, and Reusability; [Iturbide et al. 2022](https://doi.org/10.5194/essd-12-2959-2020)).
 
 ## The C3S Atlas
