@@ -27,4 +27,3 @@ dependencies:
       - ibicus
       - seaborn
       - tqdm
-prefix: /home/javi/mambaforge/envs/c3s-atlas
