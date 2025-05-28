@@ -21,6 +21,7 @@ dependencies:
   - xclim
   - xesmf
   - yaml
+  - regionmask
   - pip:
       - cads-api-client
       - cdsapi
