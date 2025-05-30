@@ -17,7 +17,7 @@ dependencies:
   - python
   - scikit-learn
   - scipy
-  - shapely=2.0.4=py312ha5b4d35_1
+  - shapely
   - xclim
   - xesmf
   - yaml
