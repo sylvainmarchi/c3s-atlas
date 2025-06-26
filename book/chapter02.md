@@ -3,7 +3,7 @@
 # Reproducibility of the C3S Atlas Application visual products
 
 
-This second chapter contains several notebooks to reproduce and extend parts of the figures and products provided by the [C3S Atlas Application](https://atlas.climate.copernicus.eu), from global and regional maps to (regional) time series, climate stripes, for pre-defined or customized regions. Some auxiliary elements, such as the calculation of Global Waming Levels (GWLs) are also illsutrated.  
+This second chapter contains several notebooks to reproduce and extend parts of the figures and products provided by the [C3S Atlas Application](https://atlas.climate.copernicus.eu), from global and regional maps to (regional) time series, climate stripes, for pre-defined or customized regions. Some auxiliary elements, such as the calculation of Global Warming Levels (GWLs) are also illustrated.
 
 Table 1 lists the notebooks included in this chapter, which build upon the [C3S Atlas Dataset](https://doi.org/10.24381/cds.h35hb680) described in the first chapter of this book.
 
