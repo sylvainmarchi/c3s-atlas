@@ -7,6 +7,10 @@ import datetime
 import glob
 import json
 
+# Get current directory
+c_path = Path(__file__)
+c_path_c3s_atlas = c_path.parents[1]
+
 def extract_zip_and_delete(zip_path):
     """
     Function to extract zip files and rename .nc file
@@ -123,11 +127,6 @@ def get_attribute(attrs, name):
     str
         Name of the variable.
     """
-
-    # Get current directory
-    c_path = Path(__file__)
-    c_path_c3s_atlas = c_path.parents[1]
-    
     # Open and read the JSON file
     with open(f"{c_path_c3s_atlas}/auxiliar/settings.json", 'r') as file:
         settings = json.load(file)

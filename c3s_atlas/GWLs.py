@@ -2,6 +2,7 @@ import pandas as pd
 import xarray as xr
 import numpy as np
 import os
+from .utils import c_path_c3s_atlas
 
 def select_member_GWLs(ds, GWLs, project, scenario, GWL):
     '''
@@ -47,11 +48,6 @@ def load_GWLs(model):
     GWLs: DataFrame
         A DataFrame containing the Global Warming Levels data for the specified model.
     '''
-
-    # Get current directory
-    c_path = os.getcwd()
-    c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
-
     root_GWLs = 'warming_levels/'
     if model in ["CMIP5", "CMIP6"]:
         GWLs = pd.read_csv(f"{c_path_c3s_atlas}/auxiliar/GWLs/{model}_WarmingLevels.csv", 

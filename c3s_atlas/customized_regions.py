@@ -4,6 +4,7 @@ import xarray as xr
 import regionmask
 from shapely.geometry import Polygon
 import geopandas as gpd
+from .utils import c_path_c3s_atlas
 
 class Mask:
     def __init__(self, ds: xr.Dataset):
@@ -114,9 +115,6 @@ class Mask:
           Returns:
               np.array: A boolean NumPy array representing the mask for European countries.
           """
-        c_path = os.getcwd()
-        c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
-        
         # Read the GeoJSON file
         geojson_data = gpd.read_file(f"{c_path_c3s_atlas}/auxiliar/geojsons/european-countries_areas.geojson")
         
@@ -143,9 +141,6 @@ class Mask:
         Returns:
           np.array: A boolean NumPy array representing the mask for EUCRA countries.
         """
-        c_path = os.getcwd()
-        c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
-        
         # Read the GeoJSON file
         geojson_data = gpd.read_file(f"{c_path_c3s_atlas}/auxiliar/geojsons/EUCRA_areas.geojson")
         
