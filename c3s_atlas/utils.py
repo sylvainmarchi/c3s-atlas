@@ -28,7 +28,8 @@ def extract_zip_and_delete(zip_path):
                          )
             else:
                 os.remove(f"{zip_path.parent}/{name}") 
-        os.remove(zip_path)
+
+    os.remove(zip_path)
 
 def get_ds_to_fill(variable: str, target: xr.Dataset, reference: xr.Dataset):
     """
@@ -178,4 +179,3 @@ def plot_month(ax, ds, var, month, title, cmap, vmin = None, vmax = None):
     ds[var].sel(time=(ds['time.month'] == month)).plot(ax=ax, cmap = cmap, vmin = vmin, vmax = vmax)
     ax.set_title(title)
     ax.coastlines()
-
