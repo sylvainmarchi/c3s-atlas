@@ -1,4 +1,5 @@
 book/_build/
+book/notebooks/geojsons/*
 .ipynb_checkpoints
 __pycache__
 *.nc
