@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import zipfile
 import xarray as xr
 import numpy as np
@@ -124,8 +125,8 @@ def get_attribute(attrs, name):
     """
 
     # Get current directory
-    c_path = os.getcwd()
-    c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
+    c_path = Path(__file__)
+    c_path_c3s_atlas = c_path.parents[1]
     
     # Open and read the JSON file
     with open(f"{c_path_c3s_atlas}/auxiliar/settings.json", 'r') as file:
