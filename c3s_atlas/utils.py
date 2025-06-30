@@ -1,10 +1,15 @@
 import os
+from pathlib import Path
 import zipfile
 import xarray as xr
 import numpy as np
 import datetime
 import glob
 import json
+
+# Get current directory
+c_path = Path(__file__)
+c_path_c3s_atlas = c_path.parents[1]
 
 def extract_zip_and_delete(zip_path):
     """
@@ -28,7 +33,8 @@ def extract_zip_and_delete(zip_path):
                          )
             else:
                 os.remove(f"{zip_path.parent}/{name}") 
-        os.remove(zip_path)
+
+    os.remove(zip_path)
 
 def get_ds_to_fill(variable: str, target: xr.Dataset, reference: xr.Dataset):
     """
@@ -121,11 +127,6 @@ def get_attribute(attrs, name):
     str
         Name of the variable.
     """
-
-    # Get current directory
-    c_path = os.getcwd()
-    c_path_c3s_atlas = '/'.join(c_path.split('/')[0:-2])
-    
     # Open and read the JSON file
     with open(f"{c_path_c3s_atlas}/auxiliar/settings.json", 'r') as file:
         settings = json.load(file)
@@ -178,4 +179,3 @@ def plot_month(ax, ds, var, month, title, cmap, vmin = None, vmax = None):
     ds[var].sel(time=(ds['time.month'] == month)).plot(ax=ax, cmap = cmap, vmin = vmin, vmax = vmax)
     ax.set_title(title)
     ax.coastlines()
-
