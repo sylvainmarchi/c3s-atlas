@@ -46,7 +46,7 @@ The following Python libraries have been used for the implementation of the work
 | [xESMF](https://xesmf.readthedocs.io/en/stable/) | Regridding library for geospatial data | 
 | [xarray](https://docs.xarray.dev/en/stable/) | Python library for managing labelled multi-dimensional arrays |
 | [dask](https://examples.dask.org/xarray.html) | Python library for parallel computing | 
-| [cdsapi](https://cds.climate.copernicus.eu/api-how-to) | The Climate Data Store (CDS) Application Program Interface (API) is a service providing programmatic access to CDS data. | 
+| [cdsapi](https://cds.climate.copernicus.eu/how-to-api) | The Climate Data Store (CDS) Application Program Interface (API) is a service providing programmatic access to CDS data. |
 
 A straightforward way to explore and interact with this repository online is by using Binder. Binder offers an executable environment with free but limited resources, allowing you to immediately reproduce the code without needing to install software locally. The required software comes pre-installed in a cloud-based environment, enabling you to directly create and execute notebooks and run scripts through the provided Terminal. Additionally, this environment is freely accessible without requiring any user authentication. To begin exploring via Binder, simply click on the "Launch in MyBinder" badge above. 
 
