@@ -18,7 +18,7 @@ dependencies:
   - scikit-learn
   - scipy
   - shapely
-  - xclim=0.42
+  - xclim=0.57
   - xesmf
   - yaml
   - regionmask
