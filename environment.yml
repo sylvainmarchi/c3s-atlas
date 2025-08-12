@@ -2,7 +2,6 @@ name: c3s-atlas
 channels:
   - conda-forge
 dependencies:
-  - pint
   - cartopy
   - cf_xarray
   - cftime
@@ -19,7 +18,7 @@ dependencies:
   - scikit-learn
   - scipy
   - shapely
-  - xclim
+  - xclim=0.42
   - xesmf
   - yaml
   - regionmask
